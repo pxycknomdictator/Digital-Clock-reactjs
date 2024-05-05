@@ -3,7 +3,7 @@ import "../../index.css";
 import "./Heading.css";
 
 const Heading = () => {
-  return <h1 className="heading">WE'RE LAUNCHING SOON</h1>;
+  return <h1 className="heading">Clock</h1>;
 };
 
 export default Heading;
