@@ -1,0 +1,44 @@
+.number-box {
+  position: relative;
+  margin-bottom: 20px;
+  height: 100px;
+}
+
+.upper,
+.lower {
+  height: 50%;
+  color: transparent;
+}
+
+.upper {
+  background: #2e2c42;
+  border-radius: 9px 9px 10px 10px;
+}
+
+.lower {
+  background: #33344d;
+  box-shadow: #1a1a23;
+  border-radius: 10px 10px 9px 9px;
+}
+
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: var(--Soft-red);
+  font-weight: 600;
+}
+
+.dhms {
+  color: var(--Grayish-blue);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+}

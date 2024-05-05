@@ -1,0 +1,10 @@
+.socialicons {
+  gap: 30px;
+  cursor: pointer;
+}
+
+.icon:hover path{
+    transition: fill .4s ease-in-out;
+    fill: var(--Soft-red);
+    cursor: pointer;
+}

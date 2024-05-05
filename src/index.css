@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* utility-classes */
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin: auto;
+}
+
+:root {
+  /* Primary */
+
+  --Grayish-blue: hsl(237, 18%, 59%);
+  --Soft-red: hsl(345, 95%, 68%);
+
+  /* Neutral */
+
+  --White: hsl(0, 0%, 100%);
+  --Dark-desaturated-blue: hsl(236, 21%, 26%);
+  --Very-dark-blueish: hsl(235, 16%, 14%);
+  --Very-dark-blue: hsl(234, 17%, 12%);
+}
+
+/* Actual Css */
+html,
+body {
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+}

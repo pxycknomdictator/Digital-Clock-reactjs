@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background: var(--Very-dark-blue);
+  position: relative;
+}
+
+.backstars {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.stars {
+  width: 100%;
+}
+
+.counter-body {
+  width: 550px;
+  flex-direction: column;
+  z-index: 4;
+}
+
+.counter-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  color: white;
+}
+
+.timer-container {
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 90px;
+  margin-bottom: 180px;
+  gap: 1.2rem;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 15px;
+  }
+
+  .counter-body {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .counter-body {
+    width: 450px;
+  }
+  .timer-container {
+    gap: 1rem;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 444px) {
+  .counter-body {
+    width: 400px;
+  }
+  .timer-container {
+    gap: 1.5rem;
+    margin-top: 40px;
+  }
+
+  .timer-container{
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+  }
+
+}
